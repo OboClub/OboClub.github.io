@@ -14,3 +14,8 @@ body {
     border-style: outset;
     border-color: darkblue;
   }
+
+.insidediv {
+    color: white;
+    font-size: 20px;
+}
