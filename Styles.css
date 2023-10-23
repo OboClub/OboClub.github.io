@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+.welcome {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .rel {
 
     position: absolute;
