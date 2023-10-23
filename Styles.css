@@ -1,7 +1,8 @@
 .rel {
     position: absolute;
     bottom: 8px;
-    left: 16px;
+    left: 8px;
+    right: 8px;
     font-size: 18px;
     background-color: darkblue;
   }
