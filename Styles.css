@@ -1,8 +1,16 @@
+body {
+    background-color: black;
+}
+
 .rel {
+
     position: absolute;
     bottom: 8px;
     left: 8px;
     right: 8px;
     font-size: 18px;
     background-color: darkblue;
+    border-radius: 10;
+    border-style: outset;
+    border-color: darkblue;
   }
