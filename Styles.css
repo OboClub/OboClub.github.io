@@ -18,7 +18,7 @@ body {
     border-radius: 10px;
     border-style: outset;
     border-color: darkblue;
-    transition: height 1s;
+    transition: height 0.5s;
     height: 10px;
   }
 
