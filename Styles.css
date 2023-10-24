@@ -18,6 +18,7 @@ body {
     border-radius: 10px;
     border-style: outset;
     border-color: darkblue;
+    transition: top 1s;
   }
 
 .rel:hover{
