@@ -19,6 +19,7 @@ function n2() {
     
 }
 var AddIDX = 0
+const OurAds = ["Ad1.png", "Ad2.png"];
 
 
 function NewAd() {
@@ -26,8 +27,7 @@ function NewAd() {
     document.getElementById("adimage").src = "OurAds[AddIDX]";
 }
 
-const OurAds = ["Ad1.png", "Ad2.png"];
 
-setInterval(myFunction, 10000);
+setInterval(NewAd, 10000);
 
 
