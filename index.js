@@ -1,6 +1,6 @@
 if (confirm('Do you want to start with the obo')) {
     // Save it!
-    n1();
+    //n1(); Det var en bugg i obo så att den stoppade spelet
   } else {
     // Do nothing!
     console.log('Fine');
@@ -23,8 +23,8 @@ const OurAds = ["Ad1.png", "Ad2.png"];
 
 
 function NewAd() {
-    AddIDX = AddIDX + 1
-    document.getElementById("adimage").src = "OurAds[AddIDX]";
+    AddIDX++;
+    document.getElementById("adimage").src = OurAds[AddIDX];
 }
 
 
