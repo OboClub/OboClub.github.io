@@ -23,6 +23,7 @@ var AddIDX = 0
 
 function NewAd() {
     AddIDX = AddIDX + 1
+    document.getElementById("adimage").src = "OurAds[AddIDX]";
 }
 
 const OurAds = ["Ad1.png", "Ad2.png"];
