@@ -1,3 +1,12 @@
+if (confirm('Do you want to start with the obo')) {
+    // Save it!
+    n1();
+  } else {
+    // Do nothing!
+    console.log('Fine');
+  }
+
+
 
 //Obo 3.0 aka smooth operator
 function n1() {
