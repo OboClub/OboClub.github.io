@@ -22,7 +22,7 @@ body {
     height: 10px;
   }
 
-.rel:hover + .insidediv{
+.rel:hover .insidediv{
     height: 100px;
     display: block;
 
