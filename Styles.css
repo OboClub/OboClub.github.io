@@ -23,9 +23,12 @@ body {
   }
 
 .rel:hover .insidediv{
-    height: 100px;
     display: block;
 
+}
+
+.rel:hover {
+    height: 100px;
 }
 
 .insidediv {
