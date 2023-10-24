@@ -18,11 +18,12 @@ body {
     border-radius: 10px;
     border-style: outset;
     border-color: darkblue;
-    transition: top 1s;
+    transition: height 1s;
+    height: 10px;
   }
 
 .rel:hover{
-    top: 600px;
+    height: 100px;
 }
 
 .insidediv {
