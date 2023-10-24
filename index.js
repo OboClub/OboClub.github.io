@@ -1,6 +1,3 @@
-alert("If you are gay, leave")
-alert("This is your final waring")
-alert("I know you gay")
 
 //Obo 3.0 aka smooth operator
 function n1() {
