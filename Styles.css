@@ -10,12 +10,13 @@ body {
 .rel {
 
     position: absolute;
+    top: 600px;
     bottom: 8px;
     left: 8px;
     right: 8px;
     font-size: 18px;
     background-color: darkblue;
-    border-radius: 10;
+    border-radius: 10px;
     border-style: outset;
     border-color: darkblue;
   }
