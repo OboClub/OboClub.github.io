@@ -20,6 +20,7 @@ body {
     border-color: darkblue;
     transition: height 0.5s;
     height: 10px;
+    overflow-y: hidden;
   }
 
 .rel:hover .insidediv{
@@ -37,5 +38,4 @@ body {
     opacity: 0;
     transition: opacity 0.5s;
     font-size: 20px;
-    display: none;
 }
