@@ -21,7 +21,7 @@ function n2() {
 
 //Ads
 var AddIDX = 0
-const OurAds = ["Ad1.png", "Ad2.png"];
+const OurAds = ["Ad1.png", "Ad2.png", "terromeme.jpg"];
 
 
 function NewAd() {
@@ -31,5 +31,3 @@ function NewAd() {
 
 
 setInterval(NewAd, 10000);
-
-
