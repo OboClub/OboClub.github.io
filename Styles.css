@@ -43,4 +43,8 @@ body {
 .img {
     width: 250px;
     margin-left: 84%;
+    padding: 10px;
+    border: 3px;
+    color: darkslategray;
+    border-color: darkslategrey;
 }
