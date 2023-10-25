@@ -26,6 +26,9 @@ const OurAds = ["Ad1.png", "Ad2.png", "terromeme.jpg"];
 
 function NewAd() {
     AddIDX++;
+    if (OurAds[AddIDX] == undefined){
+        AddIDX = 0;
+    }
     document.getElementById("adimage").src = OurAds[AddIDX];
 }
 
