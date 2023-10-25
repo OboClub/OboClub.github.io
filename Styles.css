@@ -48,3 +48,7 @@ body {
     color: darkslategray;
     border-color: darkslategrey;
 }
+
+.insideimg{
+    width: 90%;
+}
