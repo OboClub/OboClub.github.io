@@ -21,7 +21,7 @@ function n2() {
 
 //Ads
 var AddIDX = 0
-const OurAds = ["Ad1.png", "Ad2.png", "terromeme.jpg"];
+const OurAds = ["Ad1.png", "Ad2.png", "terromeme.jpg", "GangSIgns.png"];
 
 
 function NewAd() {
