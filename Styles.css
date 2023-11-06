@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    margin: 0px;
 }
 
 .welcome {
@@ -42,15 +43,21 @@ body {
 
 .img {
     width: 250px;
-    margin-left: 84%;
+    right: 0;
+    top: 0  ;
     padding: 10px;
-    border: 3px;
     background-color: darkslategray;
-    border-color: darkslategrey;
-    margin-top: 0%;
-    height: 100%;
+    border-color: rgb(94, 177, 177);
+    border: 10px;
+    margin-top: 0px;
+    height: 100vh;
+    position: absolute;
+    box-sizing: border-box;
+
 }
 
 .insideimg{
     width: 90%;
 }
+
+
