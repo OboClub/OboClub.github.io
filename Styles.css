@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(9, 7, 26);
     margin: 0px;
 }
 
@@ -15,30 +15,44 @@ body {
     left: 8px;
     right: 8px;
     font-size: 18px;
-    background-color: darkblue;
-    border-radius: 10px;
+    background-color: rgb(44, 53, 64);
+    border-radius: 15px;
     border-style: outset;
-    border-color: darkblue;
+    border-color: rgb(19, 105, 108);
     transition: height 0.5s;
     height: 10px;
     overflow-y: hidden;
+    padding: 5px 15px;
+ 
   }
 
 .rel:hover .insidediv{
-    display: block;
+    display: inline-block;
     opacity: 1;
-
 }
 
 .rel:hover {
-    height: 100px;
-}
+    height: 60px;
+    padding: 5px 15px;}
 
 .insidediv {
-    color: white;
+    padding: 10px 15px;
+    border: 5px;
+    border-color: rgb(46, 12, 12);
+    /*border-style:solid ;*/
+    background-color: rgb(0, 151, 116);
+    color:rgb(42, 39, 58);
+    border-radius: 10px;
+    margin: 10px;
+    width: fit-content;
+    display: inline-block;
     opacity: 0;
-    transition: opacity 0.5s;
-    font-size: 20px;
+    transition: opacity 0.5s, transform 0.5s;
+    user-select: none;
+}
+
+.insidediv:hover{
+    transform: scale(1.2, 1.2);
 }
 
 .img {
@@ -46,9 +60,7 @@ body {
     right: 0;
     top: 0  ;
     padding: 10px;
-    background-color: darkslategray;
-    border-color: rgb(94, 177, 177);
-    border: 10px;
+    background-color: rgb(75, 73, 81);
     margin-top: 0px;
     height: 100vh;
     position: absolute;
@@ -58,6 +70,10 @@ body {
 
 .insideimg{
     width: 90%;
+}
+
+.insidebutton{
+    display: none;
 }
 
 
