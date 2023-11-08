@@ -55,12 +55,17 @@ body {
     transform: scale(1.2, 1.2);
 }
 
+.insidediv.ActiveSite{
+    background-color: rgb(12, 73, 58);
+}
+
+
 .img {
     width: 250px;
     right: 0;
     top: 0  ;
     padding: 10px;
-    background-color: rgb(75, 73, 81);
+    background-color: rgb(74, 68, 92);
     margin-top: 0px;
     height: 100vh;
     position: absolute;
@@ -74,6 +79,45 @@ body {
 
 .insidebutton{
     display: none;
+}
+
+.WebsiteText{
+    color:  rgb(35, 208, 185);
+}
+
+h1{
+    margin-left: 24%;
+    font: small-caps bold 50px/1 sans-serif;
+}
+
+p{
+    font: italic 1.2rem "Fira Sans", serif;
+    margin: 0 0 5px 25px;
+}
+
+.textdiv{
+    width: 33vw;
+    background-color: rgb(24, 22, 49);
+    border-radius: 0px 5000px 5000px 0px;
+    height: 70vh;
+    padding: 15px;
+}
+
+
+.Startpage{
+    
+}
+
+.FaQ{
+
+}
+
+.question{
+    margin-bottom: 50px;
+}
+
+.Hquest{
+    margin: 0 0 15px 25px;
 }
 
 

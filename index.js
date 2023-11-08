@@ -1,10 +1,10 @@
-if (confirm('Do you want to start with the obo')) {
+//if (confirm('Do you want to start with the obo')) {
     // Save it!
     //n1(); Det var en bugg i obo så att den stoppade spelet
-  } else {
+//  } else {
     // Do nothing!
-    console.log('Fine');
-  }
+ //   console.log('Fine');
+ // }
 
 
 
@@ -29,3 +29,28 @@ function NewAd() {
 
 
 setInterval(NewAd, 10000);
+
+
+function Homepage() {
+  Array.from(document.getElementsByClassName("FaQ")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
+    element.style.display = "";
+  });
+}
+
+
+function FaQ() {
+  Array.from(document.getElementsByClassName("FaQ")).forEach(element => {
+    element.style.display = "";
+  });
+
+  Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
+    element.style.display = "none";
+  });
+}
+
+
+document.addEventListener("DOMContentLoaded", Homepage);
