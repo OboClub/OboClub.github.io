@@ -76,3 +76,24 @@ function Info() {
 
 
 document.addEventListener("DOMContentLoaded", Homepage);
+
+
+function Hpic() {
+  document.getElementbyid("YourIDGoesHere").style.display="none";
+}
+
+function Spic() {
+  document.getElementbyid("YourIDGoesHere").style.display="";
+}
+
+addEventListener('keyup', event => {
+  if (event.code === '1') {
+   Spic();
+}
+})
+
+addEventListener('keyup', event => {
+  if (event.code === '2') {
+   Hpic();
+}
+})
