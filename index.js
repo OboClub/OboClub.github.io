@@ -87,13 +87,13 @@ function Spic() {
 }
 
 addEventListener('keyup', event => {
-  if (event.code === '1') {
+  if (event.code === 'Digit1') {
    Spic();
 }
 })
 
 addEventListener('keyup', event => {
-  if (event.code === '2') {
+  if (event.code === 'Digit2') {
    Hpic();
 }
 })
