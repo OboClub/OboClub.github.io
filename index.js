@@ -39,6 +39,10 @@ function Homepage() {
   Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
     element.style.display = "";
   });
+
+  Array.from(document.getElementsByClassName("Info")).forEach(element => {
+    element.style.display = "none";
+  });
 }
 
 
@@ -49,6 +53,24 @@ function FaQ() {
 
   Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
     element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Info")).forEach(element => {
+    element.style.display = "none";
+  });
+}
+
+function Info() {
+  Array.from(document.getElementsByClassName("FaQ")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Info")).forEach(element => {
+    element.style.display = "";
   });
 }
 
