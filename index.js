@@ -31,53 +31,6 @@ function NewAd() {
 setInterval(NewAd, 10000);
 
 
-function Homepage() {
-  Array.from(document.getElementsByClassName("FaQ")).forEach(element => {
-    element.style.display = "none";
-  });
-
-  Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
-    element.style.display = "";
-  });
-
-  Array.from(document.getElementsByClassName("Info")).forEach(element => {
-    element.style.display = "none";
-  });
-}
-
-
-function FaQ() {
-  Array.from(document.getElementsByClassName("FaQ")).forEach(element => {
-    element.style.display = "";
-  });
-
-  Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
-    element.style.display = "none";
-  });
-
-  Array.from(document.getElementsByClassName("Info")).forEach(element => {
-    element.style.display = "none";
-  });
-}
-
-function Info() {
-  Array.from(document.getElementsByClassName("FaQ")).forEach(element => {
-    element.style.display = "none";
-  });
-
-  Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
-    element.style.display = "none";
-  });
-
-  Array.from(document.getElementsByClassName("Info")).forEach(element => {
-    element.style.display = "";
-  });
-}
-
-
-document.addEventListener("DOMContentLoaded", Homepage);
-
-
 function Hpic() {
   document.getElementbyid("YourIDGoesHere").style.display="none";
 }
@@ -97,3 +50,160 @@ addEventListener('keyup', event => {
    Hpic();
 }
 })
+
+
+function Homepage() {
+  Array.from(document.getElementsByClassName("FaQ")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
+    element.style.display = "";
+  });
+
+  Array.from(document.getElementsByClassName("Info")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("OboV")).forEach(element => {
+    element.style.display = "none";
+  });
+}
+
+
+function FaQ() {
+  Array.from(document.getElementsByClassName("FaQ")).forEach(element => {
+    element.style.display = "";
+  });
+
+  Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Info")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("OboV")).forEach(element => {
+    element.style.display = "none";
+  });
+}
+
+function Info() {
+  Array.from(document.getElementsByClassName("FaQ")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Info")).forEach(element => {
+    element.style.display = "";
+  });
+
+  Array.from(document.getElementsByClassName("OboV")).forEach(element => {
+    element.style.display = "none";
+  });
+}
+
+function OboV() {
+  Array.from(document.getElementsByClassName("FaQ")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Info")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("OboV")).forEach(element => {
+    element.style.display = "";
+  });
+}
+
+
+document.addEventListener("DOMContentLoaded", Homepage);
+
+
+//Here starts the code fore the obo verisions thing
+let obo4tf = 0
+let obo3tf = 0
+let obo2tf = 0
+let obo1tf = 0
+
+
+
+function obo4(){
+  let obo4 = document.getElementById("obo4");
+   if (obo4tf == 0){
+      obo4tf = 1;
+      let obo4old = obo4.getBoundingClientRect();
+      obo4.style.height = "auto";
+      let obo4new = obo4.getBoundingClientRect();
+      obo4.style.height = obo4old.height + "px";
+      window.requestAnimationFrame(function(){
+        obo4.style.height = obo4new.height + "px";
+      });
+      //obo4.style.height = "100px";
+  } else {
+      obo4.style.height = "0px";
+      obo4tf = 0;
+  }
+}
+
+function obo3(){
+  let obo3 = document.getElementById("obo3");
+   if (obo3tf == 0){
+      obo3tf = 1;
+      let obo3old = obo3.getBoundingClientRect();
+      obo3.style.height = "auto";
+      let obo3new = obo3.getBoundingClientRect();
+      obo3.style.height = obo3old.height + "px";
+      window.requestAnimationFrame(function(){
+        obo3.style.height = obo3new.height + "px";
+      });
+  } else {
+      obo3.style.height = "0px";
+      obo3tf = 0;
+  }
+}
+
+
+function obo2(){
+  let obo2 = document.getElementById("obo2");
+   if (obo2tf == 0){
+      obo2tf = 1;
+      let obo2old = obo2.getBoundingClientRect();
+      obo2.style.height = "auto";
+      let obo2new = obo2.getBoundingClientRect();
+      obo2.style.height = obo2old.height + "px";
+      window.requestAnimationFrame(function(){
+        obo2.style.height = obo2new.height + "px";
+      });
+  } else {
+      obo2.style.height = "0px";
+      obo2tf = 0;
+  }
+}
+
+function obo1(){
+  let obo1 = document.getElementById("obo1");
+   if (obo1tf == 0){
+      obo1tf = 1;
+      let obo1old = obo1.getBoundingClientRect();
+      obo1.style.height = "auto";
+      let obo1new = obo1.getBoundingClientRect();
+      obo1.style.height = obo1old.height + "px";
+      window.requestAnimationFrame(function(){
+        obo1.style.height = obo1new.height + "px";
+      });
+  } else {
+      obo1.style.height = "0px";
+      obo1tf = 0;
+  }
+}
+
