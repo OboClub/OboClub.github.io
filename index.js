@@ -156,7 +156,7 @@ function obo4(){
       obo4.style.height = "0px";
       obo4tf = 0;
   }
->>>>>>> f6212302308128af8a06092c9b50b6c4558e0fd5
+
 }
 
 function obo3(){
@@ -209,5 +209,4 @@ function obo1(){
       obo1.style.height = "0px";
       obo1tf = 0;
   }
-}
-
+}}
