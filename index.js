@@ -125,6 +125,28 @@ function OboV() {
   });
 }
 
+function Contact() {
+  Array.from(document.getElementsByClassName("FaQ")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Startpage")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Info")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Contact")).forEach(element => {
+    element.style.display = "";
+  });
+
+  Array.from(document.getElementsByClassName("OboV")).forEach(element => {
+    element.style.display = "none";
+  });
+}
+
 
 document.addEventListener("DOMContentLoaded", Homepage);
 document.getElementbyid("YourIDGoesHere").style.display="none";
