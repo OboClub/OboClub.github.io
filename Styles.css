@@ -104,21 +104,6 @@ p{
 }
 
 
-.Startpage{
-    
-}
-
-.FaQ{
-
-}
-
-.info{
-
-}
-
-.OboV{
-    
-}
 
 .question{
     margin-bottom: 25px;
@@ -128,6 +113,12 @@ p{
     margin: 0 0 15px 25px;
 }
 
+#YourIDGoesHere {
+    left: 0%;
+    top: 50%;
+    height: 100%;
+    width: 100%;
+}
 
 .titlediv{
     border-radius: 9000px;
@@ -188,3 +179,4 @@ p{
 
 
 }
+>>>>>>> f6212302308128af8a06092c9b50b6c4558e0fd5

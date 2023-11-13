@@ -127,7 +127,10 @@ function OboV() {
 
 
 document.addEventListener("DOMContentLoaded", Homepage);
+document.getElementbyid("YourIDGoesHere").style.display="none";
 
+function Hpic() {
+  document.getElementbyid("YourIDGoesHere").style.display="none";
 
 //Here starts the code fore the obo verisions thing
 let obo4tf = 0
@@ -153,6 +156,7 @@ function obo4(){
       obo4.style.height = "0px";
       obo4tf = 0;
   }
+>>>>>>> f6212302308128af8a06092c9b50b6c4558e0fd5
 }
 
 function obo3(){
