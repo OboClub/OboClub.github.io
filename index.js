@@ -65,6 +65,10 @@ function Homepage() {
     element.style.display = "none";
   });
 
+  Array.from(document.getElementsByClassName("Contact")).forEach(element => {
+    element.style.display = "none";
+  });
+
   Array.from(document.getElementsByClassName("OboV")).forEach(element => {
     element.style.display = "none";
   });
@@ -81,6 +85,10 @@ function FaQ() {
   });
 
   Array.from(document.getElementsByClassName("Info")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Contact")).forEach(element => {
     element.style.display = "none";
   });
 
@@ -102,6 +110,11 @@ function Info() {
     element.style.display = "";
   });
 
+
+  Array.from(document.getElementsByClassName("Contact")).forEach(element => {
+    element.style.display = "none";
+  });
+
   Array.from(document.getElementsByClassName("OboV")).forEach(element => {
     element.style.display = "none";
   });
@@ -117,6 +130,10 @@ function OboV() {
   });
 
   Array.from(document.getElementsByClassName("Info")).forEach(element => {
+    element.style.display = "none";
+  });
+
+  Array.from(document.getElementsByClassName("Contact")).forEach(element => {
     element.style.display = "none";
   });
 
