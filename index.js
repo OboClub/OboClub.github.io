@@ -32,11 +32,11 @@ setInterval(NewAd, 10000);
 
 
 function Hpic() {
-  document.getElementbyid("YourIDGoesHere").style.display="none";
+  document.getElementById("YourIDGoesHere").style.display="none";
 }
 
 function Spic() {
-  document.getElementbyid("YourIDGoesHere").style.display="";
+  document.getElementById("YourIDGoesHere").style.display="";
 }
 
 addEventListener('keyup', event => {
@@ -166,10 +166,10 @@ function Contact() {
 
 
 document.addEventListener("DOMContentLoaded", Homepage);
-document.getElementbyid("YourIDGoesHere").style.display="none";
+document.getElementById("YourIDGoesHere").style.display="none";
 
 function Hpic() {
-  document.getElementbyid("YourIDGoesHere").style.display="none";
+  document.getElementById("YourIDGoesHere").style.display="none";
 
 //Here starts the code fore the obo verisions thing
 let obo4tf = 0
