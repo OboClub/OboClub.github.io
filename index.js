@@ -31,7 +31,7 @@ function NewAd() {
 setInterval(NewAd, 10000);
 
 
-function Hpic() {
+/*function Hpic() {
   document.getElementById("YourIDGoesHere").style.display="none";
 }
 
@@ -49,7 +49,7 @@ addEventListener('keyup', event => {
   if (event.code === 'Digit2') {
    Hpic();
 }
-})
+})*/
 
 
 function Homepage() {
