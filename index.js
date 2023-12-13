@@ -164,7 +164,7 @@ function Contact() {
   });
 }
 
-Homepage()
+Homepage();
 //document.addEventListener("DOMContentLoaded", Homepage);
 //document.getElementById("YourIDGoesHere").style.display="none";
 
